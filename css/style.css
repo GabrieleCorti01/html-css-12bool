@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class^="col"]{
+    background-color: pink;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    height: 200px;
+    line-height: 200px;
+}
+
+.row-nested [class^="col"] {
+    background-color: lime;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    height: 200px;
+    line-height: 200px;
+}
